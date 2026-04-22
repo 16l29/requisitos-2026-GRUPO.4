@@ -8,15 +8,15 @@
 
 ## 1. Objetivo
 
-Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de um aplicativo web/mobile auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
+&emsp;&emsp;Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de um aplicativo web/mobile auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
 
 ## 2. Proposta de Valor
 
-A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
+&emsp;&emsp;A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
 
 ## 3. Descrição da Demanda
 
-Atualmente, estudantes enfrentam dificuldades na preparação para o ENADE devido à escassez de materiais organizados e feedback de desempenho. Para resolver isso, o sistema fornecerá uma API web/mobile composta por um banco de questões filtrável (por palavras-chave, tipo e conteúdo), resoluções em formato de mapas mentais, fóruns de debate para cada questão, geração de simulados cronometrados e um painel analítico para acompanhamento docente.
+&emsp;&emsp;Atualmente, estudantes enfrentam dificuldades na preparação para o ENADE devido à escassez de materiais organizados e feedback de desempenho. Para resolver isso, o sistema fornecerá uma API web/mobile composta por um banco de questões filtrável (por palavras-chave, tipo e conteúdo), resoluções em formato de mapas mentais, fóruns de debate para cada questão, geração de simulados cronometrados e um painel analítico para acompanhamento docente.
 
 ## 4. Partes Interessadas
 
