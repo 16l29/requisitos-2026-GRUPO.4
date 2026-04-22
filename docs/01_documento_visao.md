@@ -12,11 +12,11 @@ Este documento visa definir a proposta de valor na idealização, construção e
 
 ## 2. Proposta de Valor
 
-    A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
+A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
 
 ## 3. Descrição da Demanda
 
-    Atualmente, estudantes enfrentam dificuldades na preparação para o ENADE devido à escassez de materiais organizados e feedback de desempenho. Para resolver isso, o sistema fornecerá uma API web/mobile composta por um banco de questões filtrável (por palavras-chave, tipo e conteúdo), resoluções em formato de mapas mentais, fóruns de debate para cada questão, geração de simulados cronometrados e um painel analítico para acompanhamento docente.
+Atualmente, estudantes enfrentam dificuldades na preparação para o ENADE devido à escassez de materiais organizados e feedback de desempenho. Para resolver isso, o sistema fornecerá uma API web/mobile composta por um banco de questões filtrável (por palavras-chave, tipo e conteúdo), resoluções em formato de mapas mentais, fóruns de debate para cada questão, geração de simulados cronometrados e um painel analítico para acompanhamento docente.
 
 ## 4. Partes Interessadas
 
