@@ -12,7 +12,7 @@
 
 ## 2. Proposta de Valor
 
-    [cite start]A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
+    A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
 
 ## 3. Descrição da Demanda
 
