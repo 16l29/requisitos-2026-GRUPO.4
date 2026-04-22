@@ -8,7 +8,7 @@
 
 ## 1. Objetivo
 
-    Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de um aplicativo web/mobile auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
+Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de um aplicativo web/mobile auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
 
 ## 2. Proposta de Valor
 
