@@ -7,19 +7,19 @@
 > 3. Consulte o [guia de elaboração](../../../Elicitacao/VisaoDemanda.md) para dicas e exemplos.
 > 4. Use artefatos visuais (mapa de histórias, diagrama de caso de uso) sempre que possível.
 
+**Exemplo:**
+
 ## Histórico de Versões
 
-| Data | Versão | Descrição | Autor |
-| --- | --- | --- | --- |
-| dd/mm/aaaa | x.x | identificar a demanda e uma descrição sumária do que ocasionou a criação/mudança do artefato | nome do autor |
-|  |  |  |  |
-|  |  |  |  |
+| Data       | Versão | Descrição                                                                   | Autor                     |
+| ---------- | ------- | ----------------------------------------------------------------------------- | ------------------------- |
+| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão | Kayo Gomes & Karlos Pinto |
+|            |         |                                                                               |                           |
+|            |         |                                                                               |                           |
 
 ## 1. Objetivo
 
-Descreva de forma sucinta o propósito do projeto/demanda.
-
-**Exemplo:**
+Este documento visa definir a proposta de valor da O projeto tem como principal objetivo objeticar, construir e gerenciar um aplicativo web/mobile auxilar quanto ao processo de realização do Exame Nacional de Desempenho de Estudantes (ENADE)
 
 > Este documento visa definir a proposta de valor da demanda "Portal de Estágios", detalhando as necessidades dos alunos, professores e setor administrativo.
 
