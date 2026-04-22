@@ -19,7 +19,7 @@
 
 ## 1. Objetivo
 
-Este documento visa definir a proposta de valor da O projeto tem como principal objetivo objeticar, construir e gerenciar um aplicativo web/mobile auxilar quanto ao processo de realização do Exame Nacional de Desempenho de Estudantes (ENADE)
+Este documento visa definir a proposta de valor na objeticação, construição e gerenciamento de um aplicativo web/mobile auxilar quanto ao processo de realização do Exame Nacional de Desempenho de Estudantes (ENADE)
 
 > Este documento visa definir a proposta de valor da demanda "Portal de Estágios", detalhando as necessidades dos alunos, professores e setor administrativo.
 
