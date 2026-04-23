@@ -4,8 +4,8 @@
 
 | Data       | Versão | Descrição                                                                    | Autor                                              |
 | ---------- | ------- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
-| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo,<br />Gustavo Lima |
-| 23/04/2026 | 1.1     | Refinamentos.                                                                  | Karlos Eduardo                                     |
+| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo,<br /> |
+| 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                                     |
 
 ## 1. Objetivo
 
