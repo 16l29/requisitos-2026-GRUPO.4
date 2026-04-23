@@ -2,9 +2,9 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                                                    | Autor                     |
-| ---------- | ------- | ------------------------------------------------------------------------------ | ------------------------- |
-| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes & Karlos Pinto |
+| Data       | Versão | Descrição                                                                    | Autor                                            |
+| ---------- | ------- | ------------------------------------------------------------------------------ | ------------------------------------------------ |
+| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Pinto,<br />Gustavo Lima |
 
 ## 1. Objetivo
 
@@ -22,12 +22,12 @@
 
 Estudantes de graduação, Universidade de ensino (coordenação de cursos) e professores que acompanham o processo do exame.
 
-| Nome                   | Papel           | Responsabilidades                                    | Representante                              |
-| ---------------------- | --------------- | ---------------------------------------------------- | ------------------------------------------ |
-| Coordenação do Curso | Cliente         | Avaliar métricas gerais de uso e qualidade.         | Coordenador                                |
-| Estudante              | Usuário final  | Resolver questões, acessar mapas e fazer simulados. | -                                          |
-| Professor              | Stakeholder     | Analisar o desempenho da turma e apoiar no fórum.   | Corpo Docente                              |
-| Equipe de TI           | Desenvolvimento | Implementar e manter a API web/mobile.               | Kayo Gomes, Karlos Eduardo e Gustavo Lima |
+| Nome                   | Papel           | Responsabilidades                                    | Representante                                    |
+| ---------------------- | --------------- | ---------------------------------------------------- | ------------------------------------------------ |
+| Coordenação do Curso | Cliente         | Avaliar métricas gerais de uso e qualidade.         | Coordenador                                      |
+| Estudante              | Usuário final  | Resolver questões, acessar mapas e fazer simulados. | -                                                |
+| Professor              | Stakeholder     | Analisar o desempenho da turma e apoiar no fórum.   | Corpo Docente                                    |
+| Equipe de TI           | Desenvolvimento | Implementar e manter a API web/mobile.               | Kayo Gomes<br />Karlos Eduardo<br />Gustavo Lima |
 
 ## 5. Personas
 
