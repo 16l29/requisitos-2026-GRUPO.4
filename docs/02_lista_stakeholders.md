@@ -56,4 +56,14 @@ Para garantir o sucesso da elicitação de requisitos, a interação com esses s
 
 * **Estudantes:** Serão engajados através de questionários online e entrevistas curtas para validar o modelo de mapas mentais e simulados.
 * **Professores/Coordenação:** Serão entrevistados para definir quais métricas são essenciais no Dashboard analítico.
-* **Product Owner:** Validação contínua através das entregas das *Sprints* no repositório do GitHub.
+* **Product Owner:** Validação contínua através das entregas das *Sprints* no repositório.
+
+---
+
+## 5. Mapa Visual de Stakeholders
+
+Para facilitar a visualização das interações e necessidades de cada grupo, o diagrama abaixo ilustra como os diferentes atores se conectam ao ecossistema do projeto:
+
+![Mapa de Stakeholders](../diagramas/Stakeholder.png)
+
+*Figura 1: Mapeamento de influência e necessidades dos interessados.*
