@@ -20,11 +20,11 @@
 
 ## Histórico de Versões
 
-| Data | Versão | Descrição | Autor |
-| --- | --- | --- | --- |
-| dd/mm/aaaa | x.x | criação ou atualização inicial do glossário | nome do autor |
-|  |  |  |  |
-|  |  |  |  |
+| Data       | Versão | Descrição                                      | Autor                     |
+| ---------- | ------- | ------------------------------------------------ | ------------------------- |
+| 01/05/2026 | 1.0     | criação ou atualização inicial do glossário | Kayo Gomes & Karlos Sousa |
+|            |         |                                                  |                           |
+|            |         |                                                  |                           |
 
 ## Glossário do Projeto
 
