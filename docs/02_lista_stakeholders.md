@@ -18,7 +18,7 @@ A tabela abaixo classifica os envolvidos de acordo com seu papel, nível de infl
 
 | Stakeholder / Nome                                      | Papel                  | Interesses e Expectativas                                                                                                        | Influência | Impacto |
 | :------------------------------------------------------ | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :---------: | :-----: |
-| **Product Owner** `<br>`(Prof. Marcelo Bezerra) | Validador / Orientador | Garantir a aplicação correta da engenharia de requisitos, validar entregas e garantir o valor acadêmico do projeto.           |    Alta    |  Alto  |
+| **Product Owner** `<br>`(Prof. Marcelo Bezerra)`<br>` | Validador / Orientador | Garantir a aplicação correta da engenharia de requisitos, validar entregas e garantir o valor acadêmico do projeto.           |    Alta    |  Alto  |
 | **Coordenação do Curso**                        | Cliente / Patrocinador | Deseja relatórios gerais de desempenho para avaliar a qualidade do ensino e melhorar as notas do curso no ENADE.                |    Alta    |  Alto  |
 | **Professores do ENADE**                          | Usuário Estratégico  | Precisam de painéis analíticos (dashboards) para identificar lacunas de aprendizado nas turmas e direcionar aulas de revisão. |   Média   |  Alto  |
 | **Estudantes de Graduação**                     | Usuário Final         | Buscam uma ferramenta intuitiva, rápida e focada, com simulados cronometrados e mapas mentais para otimizar o tempo de estudo.  |    Baixa    |  Alto  |
