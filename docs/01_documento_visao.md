@@ -24,13 +24,13 @@
 
 Estudantes de graduação, Universidade de ensino (coordenação de cursos), professores que acompanham o processo do exame e a gestão do produto.
 
-| Nome                      | Papel           | Responsabilidades                                                                                                      | Representante                                    |
-| ------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Coordenação do Curso    | Cliente         | Avaliar métricas gerais de uso e qualidade.                                                                           | Coordenador                                      |
-| Estudante                 | Usuário final  | Resolver questões, acessar mapas e fazer simulados.                                                                   | -                                                |
-| Professor do Enade        | Stakeholder     | Analisar o desempenho da turma e apoiar no fórum.                                                                     | Corpo Docente                                    |
-| Professor Marcelo Bezerra | Product Owner   | Definir a visão do produto, priorizar o backlog, validar entregas e garantir que a solução atenda às necessidades. | Professor Marcelo Bezerra                        |
-| Equipe de TI              | Desenvolvimento | Implementar e manter a API web/mobile.                                                                                 | Kayo Gomes<br />Karlos Eduardo<br />Gustavo Lima |
+| Nome                      | Papel              | Responsabilidades                                                                                                      | Representante                                    |
+| ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Coordenação do Curso    | Cliente            | Avaliar métricas gerais de uso e qualidade.                                                                           | Coordenador                                      |
+| Estudante                 | Usuário final     | Resolver questões, acessar mapas e fazer simulados.                                                                   | -                                                |
+| Professor do Enade        | Stakeholder        | Analisar o desempenho da turma e apoiar no fórum.                                                                     | Corpo Docente                                    |
+| Professor Marcelo Bezerra | Product Owner (PO) | Definir a visão do produto, priorizar o backlog, validar entregas e garantir que a solução atenda às necessidades. | Professor Marcelo Bezerra                        |
+| Equipe de TI              | Desenvolvimento    | Implementar e manter a API web/mobile.                                                                                 | Kayo Gomes<br />Karlos Eduardo<br />Gustavo Lima |
 
 ## 5. Personas
 
