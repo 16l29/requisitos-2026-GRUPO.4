@@ -7,6 +7,7 @@
 | 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo, |
 | 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                     |
 | 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                            | Kayo Gomes                       |
+| 11/05      | 1.3     |                                                                                | Karlos Eduardo                   |
 
 ## 1. Objetivo
 
@@ -34,7 +35,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 ## 5. Personas
 
-### 5.1. Estudante de Graduação
+### 5.1. Estudante
 
 - **Descrição:** Aluno em fase de conclusão de curso que precisa realizar a prova do ENADE.
 - **Objetivo:** Praticar com questões reais, entender rapidamente os conceitos através de resumos visuais (mapas mentais) e testar seu tempo de resolução.
@@ -100,7 +101,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 A arquitetura será baseada em uma API RESTful central que servirá a dois clientes principais:
 
-- **Aplicativo Mobile:** Focado na experiência do estudante (acesso rápido a simulados, mapas mentais e fórum).
+- **Interface Mobile (Responsiva):** Versão otimizada para dispositivos móveis, focada na experiência do estudante (acesso rápido a simulados, mapas mentais e fórum) via navegador ou atalho no celular.
 - **Aplicação Web (Portal):** Focada no painel de gerenciamento para professores e administradores (visualização de relatórios e dashboards).
 - **Integrações:** O sistema consumirá dados públicos do INEP para alimentar o banco de questões e fará integração com o sistema acadêmico da universidade para autenticação e vinculação de turmas.
 
