@@ -7,7 +7,7 @@
 | 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo, |
 | 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                     |
 | 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                            | Kayo Gomes                       |
-| 11/05      | 1.3     |                                                                                | Karlos Eduardo                   |
+| 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.    | Karlos Eduardo                   |
 
 ## 1. Objetivo
 
