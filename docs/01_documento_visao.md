@@ -105,6 +105,12 @@ A arquitetura será baseada em uma API RESTful central que servirá a dois clien
 - **Aplicação Web (Portal):** Focada no painel de gerenciamento para professores e administradores (visualização de relatórios e dashboards).
 - **Integrações:** O sistema consumirá dados públicos do INEP para alimentar o banco de questões e fará integração com o sistema acadêmico da universidade para autenticação e vinculação de turmas.
 
+## 8. Premissas
+
+Para a viabilidade do desenvolvimento e correto funcionamento da solução, estabeleceu-se a seguinte premissa tecnológica e de negócio:
+
+* **Disponibilidade e Acesso à Base Histórica do ENADE:** Assume-se como verdadeira a existência, estabilidade e livre acesso a um repositório ou base de dados estruturada contendo o histórico de questões de exames anteriores do ENADE (provenientes de dados públicos do INEP ou repositórios institucionais). Supõe-se que esses arquivos forneçam de forma clara os enunciados, as alternativas de resposta, os gabaritos oficiais e a classificação por competências/eixos temáticos, viabilizando o processo automatizado de extração, transformação e carga para alimentar o banco de dados do sistema.
+
 ---
 
 ## Checklist de Validação do Documento de Visão
