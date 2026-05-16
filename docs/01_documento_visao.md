@@ -52,7 +52,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 #### F1.1 Banco de questões com busca avançada
 
-- **Descrição:** Permite ao aluno filtrar questões do ENADE por palavras-chave, tipo e área de conteúdo.
+- **Descrição:** Permitir ao aluno filtrar questões do ENADE por palavras-chave, tipo e área de conteúdo.
 - **Incluída**
 - **Atores:** Estudante
 - **Frequência:** Alta
@@ -62,7 +62,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 #### F2.1 Resoluções via mapas mentais
 
-- **Descrição:** Exibe a explicação estruturada da resposta correta em formato de mapa mental para fixação rápida.
+- **Descrição:** Exibir a explicação estruturada da resposta correta em formato de mapa mental para fixação rápida.
 - **Incluída**
 - **Atores:** Estudante
 - **Frequência:** Alta
@@ -72,7 +72,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 #### F3.1 Simulados cronometrados
 
-- **Descrição:** Gera provas simuladas a partir do banco de questões, com controle de tempo regressivo.
+- **Descrição:** Gerar provas simuladas a partir do banco de questões, com controle de tempo regressivo.
 - **Incluída**
 - **Atores:** Estudante
 - **Frequência:** Média
@@ -82,7 +82,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 #### F4.1 Fórum de debate por questão
 
-- **Descrição:** Espaço de comentários atrelado a cada questão para que alunos e professores discutam a resolução.
+- **Descrição:** Disponibilizar um espaço de comentários atrelado a cada questão para que alunos e professores discutam a resolução de forma colaborativa.
 - **Incluída**
 - **Atores:** Estudante, Professor
 - **Frequência:** Média
@@ -92,7 +92,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 #### F5.1 Painel de gerenciamento e análise
 
-- **Descrição:** Dashboard web com gráficos de taxa de acertos e erros dos alunos, segmentado por conteúdo.
+- **Descrição:** Disponibilizar um dashboard web com gráficos de taxa de acertos e erros dos alunos, segmentado por conteúdo curricular.
 - **Incluída**
 - **Atores:** Professor, Coordenação
 - **Frequência:** Média
