@@ -2,13 +2,14 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                                                      | Autor                            |
-| ---------- | ------- | ------------------------------------------------------------------------------ | -------------------------------- |
-| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo, |
-| 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                     |
-| 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                             | Kayo Gomes                       |
-| 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.       | Karlos Eduardo                   |
-| 16/05/2026 | 1.4     | Inclusão da seção de Premissas (integração com a base do ENADE)                | Karlos Eduardo                   |
+| Data       | Versão | Descrição                                                                      | Autor                               |
+| ---------- | ------- | ------------------------------------------------------------------------------ | ----------------------------------- |
+| 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo,    |
+| 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                        |
+| 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                             | Kayo Gomes                          |
+| 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.       | Karlos Eduardo                      |
+| 16/05/2026 | 1.4     | Inclusão da seção de Premissas (integração com a base do ENADE)                | Karlos Eduardo                      |
+| 19/05/2026 | 2.0     | Adição da persona "Coordenação" e conjugação infinitiva das necessidades.      | Kayo Gomes                        |
 
 ## 1. Objetivo
 
@@ -45,6 +46,11 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 - **Descrição:** Docente responsável por preparar e revisar os conteúdos do ENADE com as turmas concluintes.
 - **Objetivo:** Identificar rapidamente quais tópicos a turma tem mais dificuldade para focar suas aulas de revisão.
+
+### 5.3. Coordenador de Curso
+
+- **Descrição:** Responsável pela gestão pedagógica, estrutural e administrativa do curso de graduação.
+- **Objetivo:** Avaliar as métricas gerais de engajamento no aplicativo e analisar os relatórios e dashboards de desempenho consolidado das turmas para tomadas de decisão institucionais e melhorias contínuas no projeto pedagógico do curso.
 
 ## 6. Necessidades e Funcionalidades
 
