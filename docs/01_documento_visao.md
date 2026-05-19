@@ -2,13 +2,13 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                                                    | Autor                            |
+| Data       | Versão | Descrição                                                                      | Autor                            |
 | ---------- | ------- | ------------------------------------------------------------------------------ | -------------------------------- |
 | 21/04/2026 | 1.0     | Identificar requisitos, stakeholders, personas e elaborar documento de visão. | Kayo Gomes,<br />Karlos Eduardo, |
 | 23/04/2026 | 1.1     | Refinamentos.                                                                  | Gustavo Lima                     |
-| 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                            | Kayo Gomes                       |
-| 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.    | Karlos Eduardo                   |
-| 16/05/2026 | 1.4 | Inclusão da seção de Premissas (integração com a base do ENADE) | Karlos Eduardo |
+| 01/05/2026 | 1.2     | Inclusão do Product Owner nas Partes Interessadas.                             | Kayo Gomes                       |
+| 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.       | Karlos Eduardo                   |
+| 16/05/2026 | 1.4     | Inclusão da seção de Premissas (integração com a base do ENADE)                | Karlos Eduardo                   |
 
 ## 1. Objetivo
 
@@ -28,9 +28,9 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 | Nome                      | Papel              | Responsabilidades                                                                                                      | Representante                                    |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Coordenação do Curso    | Cliente            | Avaliar métricas gerais de uso e qualidade.                                                                           | Coordenador                                      |
-| Estudante                 | Usuário final     | Resolver questões, acessar mapas e fazer simulados.                                                                   | -                                                |
-| Professor do Enade        | Stakeholder        | Analisar o desempenho da turma e apoiar no fórum.                                                                     | Corpo Docente                                    |
+| Coordenação do Curso      | Cliente            | Avaliar métricas gerais de uso e qualidade.                                                                            | Coordenador                                      |
+| Estudante                 | Usuário final      | Resolver questões, acessar mapas e fazer simulados.                                                                    | -                                                |
+| Professor do Enade        | Stakeholder        | Analisar o desempenho da turma e apoiar no fórum.                                                                      | Corpo Docente                                    |
 | Professor Marcelo Bezerra | Product Owner (PO) | Definir a visão do produto, priorizar o backlog, validar entregas e garantir que a solução atenda às necessidades. | Professor Marcelo Bezerra                        |
 | Equipe de TI              | Desenvolvimento    | Implementar e manter a API web/mobile.                                                                                 | Kayo Gomes<br />Karlos Eduardo<br />Gustavo Lima |
 
@@ -48,7 +48,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 
 ## 6. Necessidades e Funcionalidades
 
-### Necessidade 1: Prática com questões direcionadas
+### Necessidade 1: Praticar com questões direcionadas
 
 #### F1.1 Banco de questões com busca avançada
 
@@ -58,7 +58,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Frequência:** Alta
 - **Valor:** Alto
 
-### Necessidade 2: Compreensão visual das respostas
+### Necessidade 2: Compreender visualmente as respostas
 
 #### F2.1 Resoluções via mapas mentais
 
@@ -68,7 +68,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Frequência:** Alta
 - **Valor:** Alto
 
-### Necessidade 3: Treinamento em condições de prova
+### Necessidade 3: Treinar em condições de prova
 
 #### F3.1 Simulados cronometrados
 
@@ -78,7 +78,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Frequência:** Média
 - **Valor:** Alto
 
-### Necessidade 4: Aprendizado colaborativo
+### Necessidade 4: Aprender de forma colaborativa
 
 #### F4.1 Fórum de debate por questão
 
@@ -88,7 +88,7 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Frequência:** Média
 - **Valor:** Médio
 
-### Necessidade 5: Acompanhamento pedagógico
+### Necessidade 5: Acompanhar pedagogicamente o desempenho
 
 #### F5.1 Painel de gerenciamento e análise
 
