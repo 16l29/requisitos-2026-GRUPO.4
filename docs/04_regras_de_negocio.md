@@ -18,7 +18,7 @@ Este documento apresenta o catálogo de **Regras de Negócio (RN)** para o Siste
 
 #### RN01 - Restrição de Domínio Institucional
 
-* **Descrição:** O acesso à plataforma por meio do componente Google OAuth é restrito exclusivamente a usuários que possuam e-mail com o domínio institucional da universidade (ex: `@academicos.universidade.edu.br` para alunos ou `@professor.universidade.edu.br` para docentes).
+* **Descrição:** O acesso à plataforma por meio do componente Google OAuth é restrito exclusivamente a usuários que possuam e-mail com o domínio institucional da universidade (ex: `nome@unifor.edu.br` para alunos e docentes).
 * **Severidade:** Crítica
 * **Origem:** Coordenação do Curso / LGPD
 
