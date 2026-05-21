@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição                                  | Autor      |
 | ---------- | ------- | -------------------------------------------- | ---------- |
 | 16/05/2026 | 1.0     | Criação do documento e mapeamento das RNs. | Kayo Gomes |
+| 19/05/2026 | 2.0     | Correções                                  | Kayo Gomes |
 
 ## 1. Introdução
 
