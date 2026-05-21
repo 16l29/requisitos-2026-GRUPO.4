@@ -52,6 +52,16 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Descrição:** Responsável pela gestão pedagógica, estrutural e administrativa do curso de graduação.
 - **Objetivo:** Avaliar as métricas gerais de engajamento no aplicativo e analisar os relatórios e dashboards de desempenho consolidado das turmas para tomadas de decisão institucionais e melhorias contínuas no projeto pedagógico do curso.
 
+### 5.4. INEP
+
+- **Descrição:** Responsável por cadastrar provas do Enade de anos antecedentes.
+- **Objetivo:** Fornecer à equipe de desenvolvimento um banco de provas à serem tratadas para categorização e filtragem por palavras-chave, competência, data de publicação e outros.
+
+### 5.5. Equipe de cadastro
+
+- **Descrição:** Responsável pelo desenvolvimento da ferramenta de filtragem de questões.
+- **Objetivo:** Categorizar e validar todas as questões vindas do banco de provas do INEP.
+
 ## 6. Necessidades e Funcionalidades
 
 ### Necessidade 1: Praticar com questões direcionadas
@@ -102,6 +112,26 @@ Estudantes de graduação, Universidade de ensino (coordenação de cursos), pro
 - **Incluída**
 - **Atores:** Professor, Coordenação
 - **Frequência:** Média
+- **Valor:** Alto
+
+### Necessidade 6: Fornecer banco de provas publicadas anteriormente
+
+#### F6.1 Disponibilização do histórico de exames
+
+- **Descrição:** Fornecer o acesso aos dados brutos, cadernos de provas e gabaritos oficiais do ENADE de anos anteriores para alimentar a base de dados do sistema.
+- **Incluída**
+- **Atores:** INEP
+- **Frequência:** Baixa
+- **Valor:** Alto
+
+### Necessidade 7: Cadastrar e validar questões recebidas no banco de provas do INEP
+
+#### F7.1 Ferramenta de cadastro, categorização e validação de questões
+
+- **Descrição:** Processar, categorizar (por palavras-chave, competências e data) e validar o formato e a integridade de todas as questões oriundas do banco de provas do INEP antes de serem liberadas para uso no aplicativo.
+- **Incluída**
+- **Atores:** Equipe de cadastro
+- **Frequência:** Alta
 - **Valor:** Alto
 
 ## 7. Arquitetura da Demanda
