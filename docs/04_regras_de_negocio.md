@@ -2,11 +2,9 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                  | Autor          |
-| ---------- | ------- | -------------------------------------------- | -------------- |
-| 16/05/2026 | 1.0     | Criação do documento e mapeamento das RNs. | Karlos Eduardo |
-
----
+| Data       | Versão | Descrição                                  | Autor      |
+| ---------- | ------- | -------------------------------------------- | ---------- |
+| 16/05/2026 | 1.0     | Criação do documento e mapeamento das RNs. | Kayo Gomes |
 
 ## 1. Introdução
 
