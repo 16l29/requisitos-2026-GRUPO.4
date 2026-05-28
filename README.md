@@ -8,6 +8,6 @@
 
 * **Integrante 1** Gustavo Viana Lima - Matrícula: 20257
 * **Integrante 2** Karlos Eduardo Sousa Pinto - Matrícula: 2320262
-* **Integrante 3** Kayo Nicholas Gomes - Matrícula: 2320258
+* **Integrante 3** Kayo Nicholas Gomes Alcantara - Matrícula: 2320258
 
 **Professor Orientador:** Prof. Bezerra
