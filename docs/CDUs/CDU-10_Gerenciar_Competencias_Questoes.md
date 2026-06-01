@@ -4,9 +4,10 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                        | Autor         |
-| ---------- | ------- | ---------------------------------- | ------------- |
-| dd/mm/aaaa | 1.0     | Criação do artefato              | nome do autor |
+| Data       | Versão | Descrição                                                      | Autor         |
+| ---------- | ------- | ---------------------------------------------------------------- | ------------- |
+| dd/mm/aaaa | 1.0     | Criação do artefato                                            | nome do autor |
+| 01/06/2026 | 1.1     | Alteração do ator primário de Coordenação para Equipe de Professores | nome do autor |
 
 ---
 
@@ -18,7 +19,7 @@ Gerenciar Competências das Questões
 
 ## 2. Objetivo
 
-Permitir que a coordenação cadastre, edite, associe e remova competências vinculadas às questões do banco de dados do Sistema ENADE, garantindo a correta classificação pedagógica das questões.
+Permitir que a equipe de professores cadastre, edite, associe e remova competências vinculadas às questões do banco de dados do Sistema ENADE, garantindo a correta classificação pedagógica das questões.
 
 ---
 
@@ -32,32 +33,32 @@ Concreto
 
 ### 4.1 Primário
 
-**Coordenação** — ator responsável pela gestão das competências associadas às questões.
+**Equipe de Professores** — ator responsável pela gestão das competências associadas às questões.
 
 ### 4.2 Secundário
 
-Não se aplica.
+**Coordenação** — pode consultar as competências cadastradas para fins de supervisão pedagógica.
 
 ---
 
 ## 5. Precondições
 
-- A coordenação deve estar autenticada no Sistema ENADE com perfil de administrador.
+- A equipe de professores deve estar autenticada no Sistema ENADE com perfil de professor.
 - O banco de questões deve estar populado com ao menos uma questão cadastrada.
 
 ---
 
 ## 6. Fluxo Principal
 
-### P1. A coordenação acessa o painel de administração e seleciona "Gerenciar Competências das Questões"
+### P1. O professor acessa o painel de gestão pedagógica e seleciona "Gerenciar Competências das Questões"
 
 ### P2. O sistema exibe a listagem de competências cadastradas com filtros disponíveis
 
-### P3. A coordenação seleciona a ação desejada: cadastrar nova competência, editar, associar a questões ou remover
+### P3. O professor seleciona a ação desejada: cadastrar nova competência, editar, associar a questões ou remover
 
 ### P4. O sistema exibe o formulário ou a confirmação correspondente à ação selecionada
 
-### P5. A coordenação preenche ou confirma as informações solicitadas
+### P5. O professor preenche ou confirma as informações solicitadas
 
 ### P6. O sistema valida os dados e executa a operação
 
@@ -67,41 +68,41 @@ Não se aplica.
 
 ## 7. Fluxos Alternativos
 
-### A1. Coordenação cadastra nova competência
+### A1. Professor cadastra nova competência
 
-#### A1.1. No P3, a coordenação seleciona "Cadastrar nova competência"
+#### A1.1. No P3, o professor seleciona "Cadastrar nova competência"
 
 #### A1.2. O sistema exibe o formulário com campos: nome da competência, descrição, área de conhecimento e nível (ex.: básico, intermediário, avançado)
 
-#### A1.3. A coordenação preenche os dados e confirma
+#### A1.3. O professor preenche os dados e confirma
 
 #### A1.4. O sistema valida e registra a nova competência
 
 #### A1.5. O fluxo retorna ao P7
 
-### A2. Coordenação associa competências a questões
+### A2. Professor associa competências a questões
 
-#### A2.1. No P3, a coordenação seleciona "Associar competências a questões"
+#### A2.1. No P3, o professor seleciona "Associar competências a questões"
 
 #### A2.2. O sistema exibe a listagem de questões com filtros de busca
 
-#### A2.3. A coordenação seleciona uma ou mais questões
+#### A2.3. O professor seleciona uma ou mais questões
 
 #### A2.4. O sistema exibe as competências disponíveis para seleção
 
-#### A2.5. A coordenação seleciona as competências e confirma a associação
+#### A2.5. O professor seleciona as competências e confirma a associação
 
 #### A2.6. O sistema registra o vínculo entre as questões e as competências selecionadas
 
 #### A2.7. O fluxo retorna ao P7
 
-### A3. Coordenação edita uma competência existente
+### A3. Professor edita uma competência existente
 
-#### A3.1. No P3, a coordenação seleciona "Editar" na competência desejada
+#### A3.1. No P3, o professor seleciona "Editar" na competência desejada
 
 #### A3.2. O sistema exibe o formulário com os dados atuais da competência
 
-#### A3.3. A coordenação realiza as alterações e confirma
+#### A3.3. O professor realiza as alterações e confirma
 
 #### A3.4. O sistema atualiza o registro da competência e propaga a alteração para todas as questões vinculadas
 
@@ -121,11 +122,11 @@ Não se aplica.
 
 ### E2. Tentativa de remoção de competência vinculada a questões
 
-#### E2.1. No P3, a coordenação seleciona "Remover" para uma competência que possui questões associadas
+#### E2.1. No P3, o professor seleciona "Remover" para uma competência que possui questões associadas
 
 #### E2.2. O sistema exibe alerta informando a quantidade de questões vinculadas
 
-#### E2.3. A coordenação decide entre prosseguir com a remoção (desvinculando as questões) ou cancelar
+#### E2.3. O professor decide entre prosseguir com a remoção (desvinculando as questões) ou cancelar
 
 ### E3. Campos obrigatórios não preenchidos
 
@@ -178,9 +179,10 @@ Não se aplica.
 
 ## 15. Referências
 
-- Diagrama de Caso de Uso — Sistema ENADE
+- Diagrama de Caso de Uso — Sistema ENADE (versão atualizada, jun/2026)
 - CDU-07: Sincronizar Questões do INEP
 - CDU-09: Gerenciar Cursos
+- CDU-11: Cadastrar Questões
 - CDU-02: Filtrar Banco de Dados
 
 ---
