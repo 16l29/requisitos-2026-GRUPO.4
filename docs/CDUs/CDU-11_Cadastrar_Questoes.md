@@ -4,9 +4,9 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                        | Autor         |
-| ---------- | ------- | ---------------------------------- | ------------- |
-| 01/06/2026 | 1.0     | Criação do artefato              | nome do autor |
+| Data       | Versão | Descrição           | Autor         |
+| ---------- | ------- | --------------------- | ------------- |
+| 01/06/2026 | 1.0     | Criação do artefato | Kayo Gomes |
 
 ---
 

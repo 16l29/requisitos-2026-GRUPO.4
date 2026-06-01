@@ -4,10 +4,10 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                                      | Autor         |
-| ---------- | ------- | ---------------------------------------------------------------- | ------------- |
-| dd/mm/aaaa | 1.0     | Criação do artefato                                            | nome do autor |
-| 01/06/2026 | 1.1     | Alteração do ator primário de Coordenação para Equipe de Professores | nome do autor |
+| Data       | Versão | Descrição           | Autor      |
+| ---------- | ------- | --------------------- | ---------- |
+| 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 01/06/2026 | 1.1     | Alteração do ator primário de Coordenação para Equipe de Professores | Kayo Gomes |
 
 ---
 
