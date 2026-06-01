@@ -10,168 +10,153 @@
 | 11/05/2026 | 1.3     | Revisão das personas e atualização da arquitetura de demanda do sistema.     | Karlos Eduardo                   |
 | 16/05/2026 | 1.4     | Inclusão da seção de Premissas (integração com a base do ENADE)            | Karlos Eduardo                   |
 | 19/05/2026 | 2.0     | Adição da persona "Coordenação" e conjugação infinitiva das necessidades. | Kayo Gomes                       |
+| 01/06/2026 | 4.0 | Atualização completa com base no Diagrama de Casos de Uso (Atores e Fluxos). | Karlos Eduardo | 
 
 ## 1. Objetivo
 
-&emsp;&emsp;Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de um aplicativo web/mobile auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
+Este documento visa definir a proposta de valor na idealização, construção e gerenciamento de uma solução de software (aplicativo web/mobile) auxiliar para o processo de preparação e realização do Exame Nacional de Desempenho de Estudantes (ENADE).
 
 ## 2. Proposta de Valor
 
-&emsp;&emsp;A solução centralizará a preparação para o ENADE de forma dinâmica e direcionada. Para os estudantes, reduzirá o tempo de estudo improdutivo ao oferecer resoluções visuais e práticas em condições reais de prova. Para o corpo docente, eliminará o "voo cego" no acompanhamento das turmas, fornecendo dados em tempo real sobre as deficiências de aprendizado para intervenções pedagógicas mais precisas.
+A solução centralizará a preparação para o ENADE de forma dinâmica, colaborativa e direcionada por dados:
+* **Para os Estudantes:** Reduz o tempo de estudo improdutivo ao oferecer resoluções visuais por mapas mentais, filtragem inteligente de conteúdo, simulados cronometrados em condições reais de prova e um espaço de debate enriquecedor.
+* **Para o Corpo Docente e Coordenação:** Elimina o "voo cego" no acompanhamento das turmas concluintes. Fornece dados analíticos em tempo real (através de dashboards de desempenho dos fóruns) sobre as reais deficiências de aprendizado, permitindo intervenções pedagógicas e revisões curriculares precisas.
 
 ## 3. Descrição da Demanda
 
-&emsp;&emsp;Atualmente, estudantes enfrentam dificuldades na preparação para o ENADE devido à escassez de materiais organizados e feedback de desempenho. Para resolver isso, o sistema fornecerá uma API web/mobile composta por um banco de questões filtrável (por palavras-chave, tipo e conteúdo), resoluções em formato de mapas mentais, fóruns de debate para cada questão, geração de simulados cronometrados e um painel analítico para acompanhamento docente.
+Atualmente, as instituições de ensino e os estudantes enfrentam severas dificuldades na preparação para o ENADE devido à descentralização de materiais e à escassez de indicadores de desempenho em tempo real. 
 
-## 4. Partes Interessadas
+Para mitigar este problema, o **Sistema ENADE** funcionará como uma plataforma unificada que provê recursos de estudo individualizado (simulados, filtros de questões, mapas mentais), aprendizado social (fóruns de debate com dashboards analíticos de engajamento) e ferramentas de gestão institucional (cadastro de questões, controle de competências, gerenciamento de usuários e cursos), com integrações automatizadas a sistemas parceiros e governamentais.
 
-Estudantes de graduação, Universidade de ensino (coordenação de cursos), professores que acompanham o processo do exame e a gestão do produto.
+## 4. Partes Interessadas (Stakeholders)
 
-| Nome                      | Papel              | Responsabilidades                                                                                                      | Representante                                    |
-| ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Coordenação do Curso    | Cliente            | Avaliar métricas gerais de uso e qualidade.                                                                           | Coordenador                                      |
-| Estudante                 | Usuário final     | Resolver questões, acessar mapas e fazer simulados.                                                                   | -                                                |
-| Professor do Enade        | Stakeholder        | Analisar o desempenho da turma e apoiar no fórum.                                                                     | Corpo Docente                                    |
-| Professor Marcelo Bezerra | Product Owner (PO) | Definir a visão do produto, priorizar o backlog, validar entregas e garantir que a solução atenda às necessidades. | Professor Marcelo Bezerra                        |
-| Equipe de TI              | Desenvolvimento    | Implementar e manter a API web/mobile.                                                                                 | Kayo Gomes<br />Karlos Eduardo<br />Gustavo Lima |
+| Nome | Papel | Responsabilidades | Representante |
+| :--- | :--- | :--- | :--- |
+| **Coordenação** | Cliente / Gestor | Gerenciar usuários e cursos na plataforma; avaliar métricas consolidadas de adesão e qualidade. | Coordenador do Curso |
+| **Estudante** | Usuário Final | Realizar simulados, praticar com questões filtradas, consultar mapas mentais e debater nos fóruns. | Alunos concluintes |
+| **Professor** | Stakeholder / Mediador | Monitorar discussões nos fóruns de debate e analisar os dashboards de desempenho das turmas. | Corpo Docente |
+| **Equipe de Professores** | Especialistas de Conteúdo | Realizar a curadoria pedagógica, cadastrar novas questões e gerenciar as matrizes de competências. | Comitê Estruturante (NDE) |
+| **Professor Marcelo Bezerra** | Product Owner (PO) | Definir e defender a visão do produto, priorizar o backlog de desenvolvimento e validar as entregas. | Professor Marcelo Bezerra |
+| **Equipe de TI** | Time de Desenvolvimento | Implementar as interfaces, manter a API estável e garantir as integrações com sistemas externos. | Kayo Gomes, Karlos Eduardo, Gustavo Lima |
 
-## 5. Personas
+## 5. Personas e Sistemas Atores (Mapeamento do Diagrama)
 
 ### 5.1. Estudante
+* **Descrição:** Aluno matriculado em um curso superior na fase de conclusão de curso, elegível ou selecionado para realizar o exame do ENADE.
+* **Objetivos no Sistema:** Autenticar-se de forma segura, filtrar e resolver questões de provas anteriores, acelerar sua compreensão por meio de mapas mentais estruturados, treinar gestão de tempo em simulados e sanar dúvidas de forma colaborativa nos fóruns.
 
-- **Descrição:** Aluno em fase de conclusão de curso que precisa realizar a prova do ENADE.
-- **Objetivo:** Praticar com questões reais, entender rapidamente os conceitos através de resumos visuais (mapas mentais) e testar seu tempo de resolução.
+### 5.2. Professor
+* **Descrição:** Docente designado para acompanhar, orientar e revisar os conteúdos curriculares específicos com as turmas concluintes.
+* **Objetivos no Sistema:** Atuar ativamente como mediador nos fóruns de debate de cada questão e extrair insights valiosos por meio dos dashboards de desempenho gerados a partir destas interações.
 
-### 5.2. Professor de Apoio
+### 5.3. Coordenação
+* **Descrição:** Responsável direto pela gestão pedagógica, administrativa e estratégica do curso de graduação.
+* **Objetivos no Sistema:** Controlar o acesso à ferramenta por meio da gestão de usuários (estudantes/professores) e cadastrar/vincular as matrizes dos cursos avaliados.
 
-- **Descrição:** Docente responsável por preparar e revisar os conteúdos do ENADE com as turmas concluintes.
-- **Objetivo:** Identificar rapidamente quais tópicos a turma tem mais dificuldade para focar suas aulas de revisão.
+### 5.4. Equipe de Professores
+* **Descrição:** Colegiado ou comitê de docentes focado na qualidade do banco de itens de teste e alinhamento com as diretrizes do Ministério da Educação (MEC).
+* **Objetivos no Sistema:** Expandir o banco de dados por meio do cadastro manual de novas questões inéditas ou adaptadas e gerenciar minuciosamente as competências associadas a cada questão.
 
-### 5.3. Coordenador de Curso
-
-- **Descrição:** Responsável pela gestão pedagógica, estrutural e administrativa do curso de graduação.
-- **Objetivo:** Avaliar as métricas gerais de engajamento no aplicativo e analisar os relatórios e dashboards de desempenho consolidado das turmas para tomadas de decisão institucionais e melhorias contínuas no projeto pedagógico do curso.
-
-### 5.4. INEP
-
-- **Descrição:** Responsável por cadastrar provas do Enade de anos antecedentes.
-- **Objetivo:** Fornecer à equipe de desenvolvimento um banco de provas à serem tratadas para categorização e filtragem por palavras-chave, competência, data de publicação e outros.
-
-### 5.5. Equipe de cadastro
-
-- **Descrição:** Responsável pelo desenvolvimento da ferramenta de filtragem de questões.
-- **Objetivo:** Categorizar e validar todas as questões vindas do banco de provas do INEP.
+### 5.5. Sistemas Externos Integrados
+* **Sistema INEP (MEC):** Sistema governamental externo consumido pela plataforma para sincronizar e importar as questões oficiais, gabaritos e padrões de resposta de edições anteriores do ENADE.
+* **Sistema Acadêmico da Instituição:** Infraestrutura interna da universidade responsável por fornecer suporte básico de dados para o ciclo de vida do Sistema ENADE, atuando diretamente como dependência (`<<include>>`) para processos de autenticação, validação de matrículas e consistência de turmas.
 
 ## 6. Necessidades e Funcionalidades
 
-### Necessidade 1: Praticar com questões direcionadas
+### Necessidade 1: Autenticação e Acesso Unificado
+#### F1.1 Efetuar cadastro e login
+* **Descrição:** Permitir que os estudantes se cadastrem e acessem a plataforma utilizando credenciais seguras. Esta funcionalidade possui interdependência com o barramento do Sistema Acadêmico da universidade.
+* **Atores:** Estudante
+* **Frequência:** Alta | **Valor:** Alto
 
-#### F1.1 Banco de questões com busca avançada
+### Necessidade 2: Prática Baseada em Evidências e Estudo Direcionado
+#### F2.1 Filtrar banco de dados
+* **Descrição:** Disponibilizar uma busca avançada que permita ao estudante selecionar questões específicas filtrando por termos, áreas de conhecimento, ano ou tipo de questão (discursiva/objetiva).
+* **Atores:** Estudante
+* **Frequência:** Alta | **Valor:** Alto
 
-- **Descrição:** Permitir ao aluno filtrar questões do ENADE por palavras-chave, tipo e área de conteúdo.
-- **Incluída**
-- **Atores:** Estudante
-- **Frequência:** Alta
-- **Valor:** Alto
+#### F2.2 Visualizar resolução via mapa mental
+* **Descrição:** Apresentar a resolução comentada de cada questão estruturada visualmente em formato de mapa mental, facilitando a memorização e correlação de conceitos complexos.
+* **Atores:** Estudante
+* **Frequência:** Alta | **Valor:** Alto
 
-### Necessidade 2: Compreender visualmente as respostas
+#### F2.3 Realizar simulado cronometrado
+* **Descrição:** Permitir a geração e execução de blocos de questões que emulam o cenário real da prova do ENADE, contendo um cronômetro regressivo para o monitoramento do tempo.
+* **Atores:** Estudante
+* **Frequência:** Média | **Valor:** Alto
 
-#### F2.1 Resoluções via mapas mentais
+### Necessidade 3: Aprendizado Social e Monitoramento Analítico
+#### F3.1 Participar de fórum de debate
+* **Descrição:** Ambiente integrado a cada questão onde os usuários podem inserir comentários, compartilhar resoluções alternativas, tirar dúvidas e interagir de forma síncrona/assíncrona.
+* **Atores:** Estudante, Professor
+* **Frequência:** Média | **Valor:** Médio
 
-- **Descrição:** Exibir a explicação estruturada da resposta correta em formato de mapa mental para fixação rápida.
-- **Incluída**
-- **Atores:** Estudante
-- **Frequência:** Alta
-- **Valor:** Alto
+#### F3.2 Visualizar dashboard de desempenho de fórum de debate
+* **Descrição:** Exibir relatórios gráficos contendo dados consolidados sobre as taxas de acerto, erro, nível de engajamento e as dúvidas mais recorrentes manifestadas nas discussões.
+* **Atores:** Estudante, Professor
+* **Frequência:** Média | **Valor:** Alto
 
-### Necessidade 3: Treinar em condições de prova
+### Necessidade 4: Governança e Administração da Plataforma
+#### F4.1 Gerenciar usuários
+* **Descrição:** Permitir o cadastro, edição, suspensão e exclusão de contas de usuários (alunos e professores) e controle de permissões.
+* **Atores:** Coordenação
+* **Frequência:** Baixa | **Valor:** Alto
 
-#### F3.1 Simulados cronometrados
+#### F4.2 Gerenciar Cursos
+* **Descrição:** Mapear e estruturar os cursos da instituição que passarão pela avaliação do ENADE, vinculando-os às suas respectivas grades ou turmas.
+* **Atores:** Coordenação
+* **Frequência:** Baixa | **Valor:** Alto
 
-- **Descrição:** Gerar provas simuladas a partir do banco de questões, com controle de tempo regressivo.
-- **Incluída**
-- **Atores:** Estudante
-- **Frequência:** Média
-- **Valor:** Alto
+### Necessidade 5: Engenharia e Qualificação Pedagógica de Conteúdo
+#### F5.1 Cadastrar questões
+* **Descrição:** Funcionalidade interna para inclusão de novas questões, alternativas, enunciados e gabaritos oficiais de forma manual ou em lote.
+* **Atores:** Equipe de Professores
+* **Frequência:** Média | **Valor:** Alto
 
-### Necessidade 4: Aprender de forma colaborativa
+#### F5.2 Gerenciar competências das questões
+* **Descrição:** Permitir a indexação de cada item de teste de acordo com a Matriz de Competências e Habilidades exigidas pelas portarias regulamentares do ENADE para cada área profissional.
+* **Atores:** Equipe de Professores
+* **Frequência:** Média | **Valor:** Alto
 
-#### F4.1 Fórum de debate por questão
+### Necessidade 6: Automatização de Carga Oficial Externalizada
+#### F6.1 Sincronizar Questões do INEP
+* **Descrição:** Rotina automatizada que conecta o ecossistema local ao *Sistema INEP* (`<<include>>`) para extrair e catalogar o histórico público das provas oficiais.
+* **Atores:** Sistema (Automação de Background com o Sistema INEP)
+* **Frequência:** Baixa | **Valor:** Alto
 
-- **Descrição:** Disponibilizar um espaço de comentários atrelado a cada questão para que alunos e professores discutam a resolução de forma colaborativa.
-- **Incluída**
-- **Atores:** Estudante, Professor
-- **Frequência:** Média
-- **Valor:** Médio
-
-### Necessidade 5: Acompanhar pedagogicamente o desempenho
-
-#### F5.1 Painel de gerenciamento e análise
-
-- **Descrição:** Disponibilizar um dashboard web com gráficos de taxa de acertos e erros dos alunos, segmentado por conteúdo curricular.
-- **Incluída**
-- **Atores:** Professor, Coordenação
-- **Frequência:** Média
-- **Valor:** Alto
-
-### Necessidade 6: Fornecer banco de provas publicadas anteriormente
-
-#### F6.1 Disponibilização do histórico de exames
-
-- **Descrição:** Fornecer o acesso aos dados brutos, cadernos de provas e gabaritos oficiais do ENADE de anos anteriores para alimentar a base de dados do sistema.
-- **Incluída**
-- **Atores:** INEP
-- **Frequência:** Baixa
-- **Valor:** Alto
-
-### Necessidade 7: Cadastrar e validar questões recebidas no banco de provas do INEP
-
-#### F7.1 Ferramenta de cadastro, categorização e validação de questões
-
-- **Descrição:** Processar, categorizar (por palavras-chave, competências e data) e validar o formato e a integridade de todas as questões oriundas do banco de provas do INEP antes de serem liberadas para uso no aplicativo.
-- **Incluída**
-- **Atores:** Equipe de cadastro
-- **Frequência:** Alta
-- **Valor:** Alto
+---
 
 ## 7. Arquitetura da Demanda
 
-A arquitetura será baseada em uma API RESTful central que servirá a dois clientes principais:
+A arquitetura de software proposta é estruturada sob o modelo cliente-servidor por meio de uma API RESTful centralizada, projetada para atender aos fluxos expressos no Diagrama de Casos de Uso:
 
-- **Interface Mobile (Responsiva):** Versão otimizada para dispositivos móveis, focada na experiência do estudante (acesso rápido a simulados, mapas mentais e fórum) via navegador ou atalho no celular.
-- **Aplicação Web (Portal):** Focada no painel de gerenciamento para professores e administradores (visualização de relatórios e dashboards).
-- **Integrações:** O sistema consumirá dados públicos do INEP para alimentar o banco de questões e fará integração com o sistema acadêmico da universidade para autenticação e vinculação de turmas.
+1. **Camada de Apresentação (Clientes):**
+   * **Interface Mobile Responsiva / PWA:** Voltada essencialmente ao uso fluido do *Estudante* (cadastro, filtros, mapas mentais, simulados e fórum).
+   * **Portal Web Administrativo:** Desenvolvido especificamente para atender as demandas analíticas e operacionais do *Professor* (dashboards), da *Coordenação* (gestão de cursos e usuários) e da *Equipe de Professores* (cadastro e gerenciamento de competências).
+2. **Camada de Integração de Sistemas Externa:**
+   * **Módulo INEP Link:** Conector assíncrono responsável pelo use case `Sincronizar Questões do INEP`.
+   * **Módulo Acadêmico Gateway:** Barramento que unifica e valida a segurança global do sistema baseando-se nas regras do `Sistema Acadêmico` corporativo da universidade.
 
 ## 8. Premissas
 
-Para a viabilidade do desenvolvimento e correto funcionamento da solução, estabeleceu-se a seguinte premissa tecnológica e de negócio:
+### 8.1. Premissas de Negócio e Dados
+* **Garantia de Acesso aos Dados do INEP:** Presume-se a manutenção da política de dados abertos e a estabilidade das fontes oficiais de dados do INEP, assegurando que o sistema possa realizar o processo de extração e transformação (ETL) sem impedimentos legais ou técnicos de segurança.
 
-**8.1. Premissas de Negócio e de Dados:**
-
-* **Disponibilidade e Acesso à Base Histórica do ENADE:** Assume-se como verdadeira a existência, estabilidade e livre acesso a um repositório ou base de dados estruturada contendo o histórico de questões de exames anteriores do ENADE (provenientes de dados públicos do INEP ou repositórios institucionais). Supõe-se que esses arquivos forneçam de forma clara os enunciados, as alternativas de resposta, os gabaritos oficiais e a classificação por competências/eixos temáticos, viabilizando o processo automatizado de extração, transformação e carga (ETL) para alimentar o banco de dados do sistema.
-
-**8.2. Premissas Técnicas e de Infraestrutura (Suporte ao Diagrama de Implantação):**
-
-As diretrizes abaixo atuam como premissas fundamentais para o mapeamento dos nós físicos e
-componentes no Diagrama de Implantação UML:
-
-* **Hospedagem em Provedor de Nuvem (Cloud Computing):** Assume-se que toda a infraestrutura de servidores será hospedada em ambiente de nuvem público (ex: AWS, GCP ou Azure), utilizando serviços gerenciados para garantir alta disponibilidade, elasticidade e segurança.
-* **Topologia Desacoplada (Client-Server Architecture):** O ecossistema será dividido de forma estrita em nós independentes: os clientes front-end (Aplicação Web Portal e a Interface Mobile Responsiva) serão distribuídos via Redes de Entrega de Conteúdo (CDNs) ou servidores de arquivos estáticos, enquanto a lógica de negócio (API RESTful) rodará em um nó de aplicação dedicado.
-* **Ambiente de Execução da API (Containerização):** A API RESTful central será encapsulada e executada em containers (ex: Docker), permitindo que seja implantada de forma padronizada em servidores virtuais ou serviços de orquestração (como instâncias gerenciadas ou Kubernetes).
-* **Camada de Persistência Isolada (SGBD Relacional):** Presume-se o uso de um Sistema Gerenciador de Banco de Dados Relacional (como PostgreSQL ou MySQL). O banco de dados residirá em um nó
-  próprio e isolado (servidor de banco de dados dedicado), comunicando-se unicamente com o nó da API RESTful através de conexões seguras internas.
-* **Conectividade e Integrações Externas via HTTPS:** O nó do servidor de aplicação (API) possuirá conectividade de saída externa via protocolo HTTPS seguro para consumir os endpoints públicos do INEP e para se comunicar com o servidor/gateway de autenticação do Sistema Acadêmico da Universidade.
-* **Dispositivos dos Usuários Finais (Target Nodes):** Os nós de destino do usuário final consistem em dispositivos desktop (computadores de professores e coordenadores rodando navegadores web modernos) e dispositivos móveis (smartphones de alunos operando a interface responsiva/PWA via browser).
+### 8.2. Premissas Técnicas e de Infraestrutura
+* **Hospedagem Baseada em Nuvem:** Todo o ecossistema será implantado em um provedor de nuvem (Cloud Computing) de grande porte (ex: AWS, Azure ou GCP), operando com escalabilidade horizontal automatizada.
+* **Isolamento de Persistência (SGBD):** Utilização de um Sistema Gerenciador de Banco de Dados Relacional robusto (ex: PostgreSQL) rodando em uma sub-rede isolada e protegida de acessos externos diretos.
+* **Segurança na Comunicação Extensiva:** Todas as trocas de informações e comunicações de borda, incluindo as chamadas para os nós do *Sistema INEP* e do *Sistema Acadêmico*, ocorrerão estritamente sob canais criptografados via protocolo HTTPS (TLS 1.3).
+* **Compatibilidade Omnichannel de Clientes:** As interfaces com o usuário final devem apresentar compatibilidade estrita com navegadores web modernos (Chrome, Firefox, Safari, Edge) e sistemas operacionais móveis vigentes (Android e iOS).
 
 ---
 
 ## Checklist de Validação do Documento de Visão
 
 - [X] O objetivo está claro e alinhado ao problema/necessidade?
-- [X] A proposta de valor é mensurável e relevante?
-- [X] Todas as partes interessadas estão listadas com papéis definidos?
-- [X] Existem pelo menos duas personas descritas?
-- [X] Todas as necessidades e funcionalidades estão relacionadas a atores?
-- [X] Há indicação de valor e frequência para cada funcionalidade?
-- [X] A arquitetura está ilustrada (mesmo que de forma simples)?
-- [X] O documento está escrito em linguagem clara e objetiva?
+- [X] A proposta de valor é mensurável e relevante para todos os públicos?
+- [X] Todas as partes interessadas estão listadas com papéis e responsabilidades detalhados?
+- [X] Existem as personas descritas espelhando todos os atores humanos do diagrama UML?
+- [X] Todas as necessidades e funcionalidades estão rigorosamente atreladas aos atores do diagrama?
+- [X] Há indicação clara de valor e frequência para cada funcionalidade descrita?
+- [X] A arquitetura ilustra e justifica a presença dos sistemas legados externos (`Sistema INEP` e `Sistema Acadêmico`)?
+- [X] O documento está escrito em linguagem técnica, clara e objetiva?
