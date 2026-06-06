@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Adição do fluxo de marcação de status do tópico | Karlos Eduardo |
 
 ---
 
@@ -104,6 +105,16 @@ Concreto
 #### A3.3. O ator realiza as alterações e confirma
 
 #### A3.4. O sistema atualiza a postagem e registra o histórico de edição
+
+### A4. Professor atualiza o status do tópico (Pendente / Respondido)
+
+#### A4.1. No P4, o professor visualiza o tópico e avalia as respostas fornecidas
+
+#### A4.2. O professor seleciona a opção de marcar o status do tópico
+
+#### A4.3. O professor define o status como "Respondido" (quando a dúvida foi sanada) ou "Pendente" (quando requer mais discussão)
+
+#### A4.4. O sistema atualiza o selo visual de status do tópico na listagem geral e na visão interna do tópico
 
 ---
 

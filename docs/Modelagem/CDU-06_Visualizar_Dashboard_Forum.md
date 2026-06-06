@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Clarificação de escopo (isolamento de métricas) | Karlos Eduardo |
 
 ---
 
@@ -142,6 +143,7 @@ Não se aplica.
 
 ## 14. Observações
 
+- **Atenção ao Escopo:** O escopo do presente Caso de Uso e Dashboard está restrito única e exclusivamente às métricas de engajamento do fórum (postagens, curtidas, tópicos, respostas). O painel analítico voltado ao desempenho em simulados e taxas de erro/acerto de questões (RF16-18) será especificado e coberto por um CDU próprio e separado.
 - Avaliar inclusão de ranking de participação entre estudantes do mesmo curso ou turma.
 - Considerar alertas automáticos para estudantes com baixo engajamento no fórum.
 

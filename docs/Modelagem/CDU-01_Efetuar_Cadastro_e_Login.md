@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Atualização do fluxo para OAuth 2.0 e adição de referências | Karlos Eduardo |
 
 ---
 
@@ -51,17 +52,17 @@ Concreto
 
 ### P1. O estudante acessa a página inicial do Sistema ENADE
 
-### P2. O sistema exibe as opções de "Cadastrar" e "Entrar"
+### P2. O sistema exibe as opções de autenticação (ex.: "Entrar com Google" e "Acesso por E-mail/Senha")
 
-### P3. O estudante seleciona a opção "Entrar"
+### P3. O estudante seleciona a opção "Entrar com Google"
 
-### P4. O sistema exibe o formulário de login com campos de e-mail e senha
+### P4. O sistema redireciona o estudante para a interface de autorização do provedor (Google OAuth)
 
-### P5. O estudante preenche o e-mail e a senha e confirma o acesso
+### P5. O estudante seleciona sua conta institucional e autoriza o acesso
 
-### P6. O sistema valida as credenciais informadas
+### P6. O sistema valida o domínio do e-mail recebido para garantir o acesso institucional
 
-### P7. O sistema autentica o estudante e redireciona para a tela principal
+### P7. O sistema autentica o estudante, atribui o perfil correspondente e redireciona para a tela principal
 
 ---
 
@@ -81,19 +82,31 @@ Concreto
 
 #### A1.6. O sistema exibe mensagem de confirmação e redireciona para a tela de login
 
-#### A1.7. O fluxo retorna ao P4
+#### A1.7. O fluxo retorna ao P2
+
+### A2. Estudante acessa via E-mail e Senha
+
+#### A2.1. No P3, o estudante seleciona a opção "Acesso por E-mail/Senha"
+
+#### A2.2. O sistema exibe o formulário de login com campos de e-mail e senha
+
+#### A2.3. O estudante preenche o e-mail e a senha e confirma o acesso
+
+#### A2.4. O sistema valida as credenciais informadas
+
+#### A2.5. O fluxo retorna ao P7
 
 ---
 
 ## 8. Fluxos de Exceção
 
-### E1. Credenciais inválidas
+### E1. Credenciais inválidas (Fluxo de E-mail/Senha)
 
-#### E1.1. No P6, o sistema identifica que o e-mail ou a senha estão incorretos
+#### E1.1. No A2.4, o sistema identifica que o e-mail ou a senha estão incorretos
 
 #### E1.2. O sistema exibe mensagem de erro: "E-mail ou senha inválidos"
 
-#### E1.3. O fluxo retorna ao P4
+#### E1.3. O fluxo retorna ao A2.2
 
 ### E2. E-mail já cadastrado
 
@@ -105,11 +118,19 @@ Concreto
 
 ### E3. Campos obrigatórios não preenchidos
 
-#### E3.1. O estudante tenta confirmar o formulário sem preencher todos os campos obrigatórios
+#### E3.1. O estudante tenta confirmar o formulário de cadastro ou login sem preencher os campos
 
 #### E3.2. O sistema destaca os campos em branco e exibe mensagem de validação
 
 #### E3.3. O fluxo retorna ao passo correspondente
+
+### E4. Domínio de e-mail inválido (Google OAuth)
+
+#### E4.1. No P6, o sistema identifica que o e-mail selecionado não pertence à instituição
+
+#### E4.2. O sistema bloqueia o login e exibe alerta: "Acesso restrito a e-mails institucionais."
+
+#### E4.3. O fluxo retorna ao P2
 
 ---
 
@@ -123,7 +144,7 @@ Concreto
 ## 10. Requisitos Não Funcionais
 
 - O processo de autenticação deve ser concluído em até 3 segundos.
-- As senhas devem ser armazenadas com criptografia (ex.: bcrypt).
+- As senhas (quando usadas no fluxo alternativo) devem ser armazenadas com criptografia (ex.: bcrypt).
 - O sistema deve suportar autenticação simultânea de múltiplos usuários.
 
 ---
@@ -148,8 +169,8 @@ Não se aplica.
 
 ## 14. Observações
 
-- Avaliar implementação de recuperação de senha via e-mail.
-- Considerar integração com login via Sistema Acadêmico para aproveitamento de credenciais institucionais.
+- Avaliar implementação de recuperação de senha via e-mail para o fluxo A2.
+- Considerar integração com login via Sistema Acadêmico para aproveitamento de credenciais.
 
 ---
 
@@ -157,6 +178,8 @@ Não se aplica.
 
 - Diagrama de Caso de Uso — Sistema ENADE
 - Especificação do Sistema Acadêmico (sistema externo)
+- **RN01** — Restrição de Domínio Institucional
+- **RNF05** — Delegação de autenticação via OAuth 2.0 (sem senhas locais)
 
 ---
 

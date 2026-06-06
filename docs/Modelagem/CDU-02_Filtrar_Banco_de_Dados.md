@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Correção de referência | Karlos Eduardo |
 
 ---
 
@@ -149,7 +150,7 @@ Não se aplica.
 ## 15. Referências
 
 - Diagrama de Caso de Uso — Sistema ENADE
-- CDU-09: Sincronizar Questões do INEP
+- **CDU-07**: Sincronizar Questões do INEP
 
 ---
 

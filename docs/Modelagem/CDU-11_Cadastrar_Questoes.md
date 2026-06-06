@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor         |
 | ---------- | ------- | --------------------- | ------------- |
 | 01/06/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Adição de referências | Karlos Eduardo |
 
 ---
 
@@ -204,6 +205,8 @@ Não se aplica.
 - CDU-02: Filtrar Banco de Dados
 - CDU-03: Visualizar Resolução via Mapa Mental
 - CDU-04: Realizar Simulado Cronometrado
+- **RN03** — Imutabilidade das Questões Oficiais
+- **RN04** — Associação de Elementos Pedagógicos
 
 ---
 

@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Inclusão das 5 modalidades de simulado | Karlos Eduardo |
 
 ---
 
@@ -51,11 +52,11 @@ Não se aplica.
 
 ### P1. O estudante acessa a funcionalidade "Simulado Cronometrado"
 
-### P2. O sistema exibe as opções de configuração do simulado (número de questões, área, tempo)
+### P2. O sistema exibe as 5 modalidades de simulado disponíveis: Simulado Completo, Por Área, Refazer Último, Fortificar Pontos Fortes e Relembrar Conteúdos Antigos
 
-### P3. O estudante define as configurações e inicia o simulado
+### P3. O estudante seleciona a modalidade desejada e define as configurações aplicáveis (ex.: número de questões, área específica, tempo limite)
 
-### P4. O sistema monta a lista de questões conforme as configurações e inicia o cronômetro
+### P4. O sistema monta a lista de questões dinamicamente conforme a modalidade/configuração e inicia o cronômetro
 
 ### P5. O sistema exibe a primeira questão com o cronômetro em execução
 

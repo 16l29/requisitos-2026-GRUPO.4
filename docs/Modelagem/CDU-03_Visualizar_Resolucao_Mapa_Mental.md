@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Definição de formato visual e adição de referência | Karlos Eduardo |
 
 ---
 
@@ -138,8 +139,8 @@ Não se aplica.
 
 ## 14. Observações
 
-- Avaliar o uso de bibliotecas de visualização de grafos (ex.: D3.js, MindMeister) para renderização do mapa mental.
-- Considerar a possibilidade de o estudante exportar o mapa mental em formato de imagem.
+- **Formato Visual:** Conforme alinhamento de protótipo, o formato visual do mapa mental será implementado estritamente como uma **estrutura de tópicos colapsáveis**, eliminando ambiguidades com visualizações em grafos interativos complexos (ex: D3.js).
+- Considerar a possibilidade de o estudante exportar a estrutura de tópicos em formato de imagem ou PDF.
 
 ---
 
@@ -147,6 +148,7 @@ Não se aplica.
 
 - Diagrama de Caso de Uso — Sistema ENADE
 - CDU-02: Filtrar Banco de Dados
+- **RN08** — Unicidade do Gabarito Visual (Mapa Mental Oficial)
 
 ---
 

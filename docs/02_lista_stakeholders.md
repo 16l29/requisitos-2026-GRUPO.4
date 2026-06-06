@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição                                    | Autor                          |
 | ---------- | ------- | ---------------------------------------------- | ------------------------------ |
 | 01/05/2026 | 1.0     | Criação do documento e mapeamento de perfis. | Kayo Gomes<br />Karlos Eduardo |
+| 06/06/2026 | 1.1     | Inclusão da Persona 3 (Coordenação) e Persona 4 (Equipe de Professores). | Karlos Eduardo |
 
 ---
 
@@ -47,6 +48,26 @@ Para guiar as decisões de interface e fluxos do sistema, foram elaboradas perso
 * **Necessidades no Sistema:**
   * Precisa de um *Dashboard* que mostre estatísticas em tempo real (ex: "70% da Turma A errou a questão sobre Banco de Dados").
   * Quer poder interagir com os alunos no fórum de discussão de questões específicas para tirar dúvidas pontuais.
+
+### 3.3. Persona 3: A Coordenação
+
+* **Nome Fictício:** Prof. Roberto
+* **Perfil:** Coordenador do curso de graduação. Lida com demandas administrativas, indicadores do MEC e traça estratégias institucionais para melhorar a nota do curso no ENADE.
+* **Dores:** Carece de uma visão gerencial macro sobre o engajamento e desempenho das turmas. Sofre com processos burocráticos manuais na hora de organizar quem deve acessar as plataformas de apoio e mapear disciplinas.
+* **Necessidades no Sistema:**
+  * Necessita de acesso a painéis consolidados e agregados de desempenho do curso como um todo (preservando o anonimato conforme a LGPD).
+  * Precisa de ferramentas simples para gerenciar usuários (cadastrar/ativar/desativar alunos e professores) e gerenciar os cursos na plataforma.
+  * Controla integrações de alto nível, como o acionamento da sincronização do banco do INEP.
+
+### 3.4. Persona 4: A Equipe de Professores (Curadoria/NDE)
+
+* **Nome Fictício:** Prof. Carlos (Membro do Núcleo Docente Estruturante - NDE)
+* **Perfil:** Docente especialista que faz parte de um comitê voltado à gestão da qualidade do ensino e matriz curricular do curso.
+* **Dores:** Dificuldade em catalogar e manter atualizado um banco de questões robusto. Falta de padronização nas habilidades exigidas e dificuldade em associá-las de forma prática a avaliações anteriores.
+* **Necessidades no Sistema:**
+  * Precisa criar e gerenciar a árvore de competências de acordo com as portarias e diretrizes do ENADE.
+  * Precisa de ferramentas para associar facilmente as competências a questões do sistema.
+  * Necessita importar questões oficiais do INEP ou cadastrar novas questões (inéditas ou adaptadas) para enriquecer o banco de testes disponível aos estudantes.
 
 ---
 

@@ -6,6 +6,7 @@
 | ---------- | ------- | -------------------------------------------- | ---------- |
 | 16/05/2026 | 1.0     | Criação do documento e mapeamento das RNs. | Kayo Gomes |
 | 19/05/2026 | 2.0     | Correções                                  | Kayo Gomes |
+| 06/06/2026 | 2.1     | Esclarecimento da RN10 sobre visão nominal restrita ao professor vinculado à turma. | Karlos Eduardo     |
 
 ## 1. Introdução
 
@@ -89,9 +90,9 @@ Este documento apresenta o catálogo de **Regras de Negócio (RN)** para o Siste
 
 #### RN10 - Anonimização Pedagógica no Dashboard
 
-* **Descrição:** Para proteger a privacidade dos estudantes (em conformidade com a LGPD), os painéis de gerenciamento visíveis aos Professores e à Coordenação exibirão apenas métricas de desempenho de forma **agregada e percentual** por turma (ex: "75% da turma acertou a questão X"). O desempenho nominal detalhado de cada aluno individualmente em simulados de treinamento não será exposto de forma pública nos gráficos de desempenho geral.
+* **Descrição:** Para proteger a privacidade dos estudantes (em conformidade com a LGPD), os painéis de gerenciamento globais visíveis à Coordenação e em visualizações consolidadas exibirão métricas de desempenho apenas de forma **agregada e percentual** por turma (ex: "75% da turma acertou a questão X"). O desempenho nominal detalhado de alunos não será exposto de forma pública nos gráficos de desempenho geral. **No entanto, a visão nominal individual por aluno (tela de Turmas) é permitida única e exclusivamente para o professor vinculado àquela turma específica**, configurando-se como uma ferramenta estrita de acompanhamento pedagógico, e não como um painel público.
 * **Severidade:** Alta
-* **Origem:** LGPD / Comitê de Ética Institucional
+* **Origem:** LGPD / Comitê de Ética Institucional / Requisitos de Acompanhamento Docente
 
 ---
 

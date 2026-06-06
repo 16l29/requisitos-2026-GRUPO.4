@@ -2,9 +2,10 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Descrição                                    | Autor                           |
-| ---------- | ------- | ---------------------------------------------- | ------------------------------- |
-| 16/05/2026 | 1.0     | Criação do documento e elicitação dos RFs. | Kayo Gomes,<br />Karlos Eduardo |
+| Data       | Versão | Descrição                                                                                                    | Autor                           |
+| ---------- | ------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| 16/05/2026 | 1.0     | Criação do documento e elicitação dos RFs.                                                                 | Kayo Gomes,<br />Karlos Eduardo |
+| 06/06/2026 | 1.1     | Inclusão dos RFs de gestão de usuários, cursos, competências, cadastro de questões e dashboard de fórum. | Karlos Eduardo                  |
 
 ---
 
@@ -58,3 +59,19 @@ Este documento lista os **Requisitos Funcionais (RF)** do Sistema de Apoio ao EN
 | **RF16** | **Gerar** gráficos visuais contendo as taxas percentuais de acertos e erros agregadas dos estudantes, segmentadas por eixo de conteúdo curricular. |    Alta    |
 | **RF17** | **Permitir** que o professor filtre os dados exibidos no painel selecionando apenas as turmas com as quais possui vínculo ativo.                    |    Alta    |
 | **RF18** | **Listar** um ranking automático das "Top 5 Questões com Maior Índice de Erros" da turma filtrada para direcionamento das aulas de revisão.      |   Média   |
+
+### 2.6. Módulo de Gestão Administrativa
+
+| ID             | Descrição                                                                                                                                                                        | Prioridade |
+| :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| **RF19** | **Permitir** que usuários com perfil de Coordenação realizem o gerenciamento (cadastro, edição, ativação/desativação e exclusão) de usuários da plataforma.       |    Alta    |
+| **RF20** | **Permitir** que usuários com perfil de Coordenação cadastrem e editem os cursos oferecidos, além de vincular usuários (professores/estudantes) aos respectivos cursos. |    Alta    |
+
+### 2.7. Módulo de Gestão Pedagógica e Curadoria
+
+| ID             | Descrição                                                                                                                                                            | Prioridade |
+| :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| **RF21** | **Permitir** que a Equipe de Professores crie, edite e exclua competências e habilidades de acordo com as diretrizes e matrizes do INEP.                        |   Média   |
+| **RF22** | **Permitir** que a Equipe de Professores vincule e associe as competências cadastradas às questões do banco de dados.                                         |   Média   |
+| **RF23** | **Permitir** que a Equipe de Professores cadastre manualmente questões originais (inéditas ou adaptadas), englobando enunciado, alternativas e gabarito.       |    Alta    |
+| **RF24** | **Permitir** que a Equipe de Professores selecione e importe em lote questões diretamente do acervo oficial sincronizado do INEP para o banco ativo do sistema. |    Alta    |

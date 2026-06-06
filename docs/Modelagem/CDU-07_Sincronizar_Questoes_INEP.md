@@ -7,6 +7,7 @@
 | Data       | Versão | Descrição           | Autor      |
 | ---------- | ------- | --------------------- | ---------- |
 | 28/05/2026 | 1.0     | Criação do artefato | Kayo Gomes |
+| 06/06/2026 | 1.1     | Adição de referências | Karlos Eduardo |
 
 ---
 
@@ -163,6 +164,7 @@ Não se aplica.
 - Diagrama de Caso de Uso — Sistema ENADE
 - Documentação da API do Sistema INEP
 - CDU-02: Filtrar Banco de Dados
+- **RN03** — Imutabilidade das Questões Oficiais
 
 ---
 
