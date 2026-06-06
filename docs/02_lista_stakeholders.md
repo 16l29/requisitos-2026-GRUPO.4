@@ -85,6 +85,6 @@ Para garantir o sucesso da elicitação de requisitos, a interação com esses s
 
 Para facilitar a visualização das interações e necessidades de cada grupo, o diagrama abaixo ilustra como os diferentes atores se conectam ao ecossistema do projeto:
 
-![Mapa de Stakeholders](../diagramas/Stakeholders.png)
+![Mapa de Stakeholders](../diagramas/Diagrama_Stakeholders.png)
 
 *Figura 1: Mapeamento de influência e necessidades dos interessados.*
