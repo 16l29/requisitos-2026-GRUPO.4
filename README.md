@@ -6,10 +6,10 @@
 
 ## 👥 Grupo .4
 
+**Professor Orientador:** Prof. Bezerra
+
 * **Integrante 1** Gustavo Viana Lima - Matrícula: 20257
 * **Integrante 2** Karlos Eduardo Sousa Pinto - Matrícula: 2320262
 * **Integrante 3** Kayo Nicholas Gomes Alcantara - Matrícula: 2320258
-
-**Professor Orientador:** Prof. Bezerra
 
 ![1780790069585](image/README/1780790069585.png)
