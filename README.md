@@ -12,4 +12,4 @@
 * **Integrante 2** Karlos Eduardo Sousa Pinto - Matrícula: 2320262
 * **Integrante 3** Kayo Nicholas Gomes Alcantara - Matrícula: 2320258
 
-[![1780790069585](image/README/1780790069585.png)](https://sistema-enade.lovable.app/)
+[![Página Inicial do Sistema ENADE](prototipos/01_home_page.png)](https://sistema-enade.lovable.app/)
