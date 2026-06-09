@@ -48,7 +48,7 @@ Acesse o protótipo funcional: **[sistema-enade.lovable.app](https://sistema-ena
 
 | Integrante                    | Matrícula |
 | ----------------------------- | ---------- |
-| Gustavo Viana Lima            | 20257      |
+| Gustavo Viana Lima            | 2320257    |
 | Karlos Eduardo Sousa Pinto    | 2320262    |
 | Kayo Nicholas Gomes Alcantara | 2320258    |
 
