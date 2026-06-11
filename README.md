@@ -56,44 +56,47 @@ Acesse o protótipo funcional: **[sistema-enade.lovable.app](https://sistema-ena
 
 ## 📁 Estrutura do Repositório
 
+## 📁 Estrutura do Repositório
+
 ```
 requisitos-2026-GRUPO.4/
 │
 ├── docs/                          # Documentação do projeto
 │   ├── 01_documento_visao.md      # Visão da demanda e proposta de valor
 │   ├── 02_lista_stakeholders.md   # Partes interessadas detalhadas
-│   ├── 03_glossario.md            # Glossário de termos
-│   ├── 04_regras_de_negocio.md    # Regras de negócio
-│   ├── 05_requisitos_funcionais.md
-│   ├── 06_requisitos_nao_funcionais.md
+│   ├── 03_glossario.md            # Glossário de termos do domínio
+│   ├── 04_regras_de_negocio.md    # Regras de negócio do sistema
+│   ├── 05_requisitos_funcionais.md  # Requisitos funcionais levantados
+│   ├── 06_requisitos_nao_funcionais.md  # Requisitos não funcionais e restrições
 │   ├── 07_SRS.md                  # Software Requirements Specification (IEEE 830)
-│   ├── 08_revisao_consistencia.md # Relatório de revisão e consistência
-│   └── 09_acesso_prototipo.md     # Guia de acesso ao protótipo
+│   ├── 08_revisao_consistencia.md # Relatório de revisão e consistência dos requisitos
+│   └── 09_acesso_prototipo.md     # Guia de acesso e navegação no protótipo
 │
 ├── modelagem/                     # Especificações de Casos de Uso
-│   ├── CDU-01_Efetuar_Cadastro_e_Login.md
-│   ├── CDU-02_Filtrar_Banco_de_Dados.md
-│   ├── CDU-03_Visualizar_Resolucao_Mapa_Mental.md
-│   ├── CDU-04_Realizar_Simulado_Cronometrado.md
-│   ├── CDU-05_Participar_Forum_Debate.md
-│   ├── CDU-06_Visualizar_Dashboard_Forum.md
-│   ├── CDU-07_Sincronizar_Questoes_INEP.md
-│   ├── CDU-08_Gerenciar_Usuarios.md
-│   ├── CDU-09_Gerenciar_Cursos.md
-│   ├── CDU-10_Gerenciar_Competencias_Questoes.md
-│   └── CDU-11_Cadastrar_Questoes.md
+│   ├── CDU-01_Efetuar_Cadastro_e_Login.md          # Autenticação via sistema acadêmico
+│   ├── CDU-02_Filtrar_Banco_de_Dados.md            # Busca avançada no banco de questões
+│   ├── CDU-03_Visualizar_Resolucao_Mapa_Mental.md  # Resolução visual comentada
+│   ├── CDU-04_Realizar_Simulado_Cronometrado.md    # Simulado com controle de tempo
+│   ├── CDU-05_Participar_Forum_Debate.md           # Discussão colaborativa por questão
+│   ├── CDU-06_Visualizar_Dashboard_Forum.md        # Métricas de desempenho e engajamento
+│   ├── CDU-07_Sincronizar_Questoes_INEP.md         # Importação de questões e gabaritos oficiais
+│   ├── CDU-08_Gerenciar_Usuarios.md                # Controle de acesso de estudantes e professores
+│   ├── CDU-09_Gerenciar_Cursos.md                  # Cadastro e vinculação de matrizes curriculares
+│   ├── CDU-10_Gerenciar_Competencias_Questoes.md   # Alinhamento com diretrizes do MEC
+│   └── CDU-11_Cadastrar_Questoes.md                # Inclusão manual de questões inéditas ou adaptadas
 │
-├── diagramas/                     # Diagramas UML
-│   ├── Diagrama_Caso_de_Uso.png
-│   ├── Diagrama_de_Componentes.png
-│   ├── Diagrama_Implantacao.png
-│   └── Diagrama_Stakeholders.png
+├── diagramas/                     # Diagramas UML do sistema
+│   ├── Diagrama_Caso_de_Uso.png   # Diagrama geral de casos de uso
+│   ├── Diagrama_de_Componentes.png  # Arquitetura de componentes do sistema
+│   ├── Diagrama_Implantacao.png   # Diagrama de implantação e infraestrutura
+│   └── Diagrama_Stakeholders.png  # Mapa de partes interessadas
 │
-├── prototipos/                    # Telas do protótipo (15 telas)
+├── prototipos/                    # Telas do protótipo (24 telas)
 │
-└── entregas/                      # PDFs das entregas acadêmicas
-    ├── P1_GRUPO4.pdf
-    └── P2_GRUPO4.pdf
+└── entregas/                      # PDFs e arquivos das entregas acadêmicas
+    ├── P1_GRUPO4.pdf              # Entrega 1: visão, stakeholders e requisitos
+    ├── P2_GRUPO4.pdf              # Entrega 2: modelagem, SRS e protótipos
+    └── PITCH_GRUPO4.html          # Apresentação de pitch do projeto
 ```
 
 ---
@@ -127,6 +130,7 @@ requisitos-2026-GRUPO.4/
 | ------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | **P1** | Visão da demanda, stakeholders, requisitos funcionais e não funcionais, glossário e regras de negócio | [P1_GRUPO4.pdf](entregas/P1_GRUPO4.pdf) |
 | **P2** | Modelagem de casos de uso (CDU-01 a CDU-11), SRS (IEEE 830), protótipos e revisão de consistência      | [P2_GRUPO4.pdf](entregas/P2_GRUPO4.pdf) |
+| **PITCH** | Apresentação de pitch do projeto em formato web interativo                                             | [PITCH_GRUPO4.html](entregas/PITCH_GRUPO4.html) |
 
 ---
 
