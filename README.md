@@ -64,8 +64,6 @@ Acesse o protótipo funcional: **[sistema-enade.lovable.app](https://sistema-ena
 
 ## 📁 Estrutura do Repositório
 
-## 📁 Estrutura do Repositório
-
 ```
 requisitos-2026-GRUPO.4/
 │
@@ -138,7 +136,7 @@ requisitos-2026-GRUPO.4/
 | --------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | **P1**    | Visão da demanda, stakeholders, requisitos funcionais e não funcionais, glossário e regras de negócio | [P1_GRUPO4.pdf](entregas/P1_GRUPO4.pdf)         |
 | **P2**    | Modelagem de casos de uso (CDU-01 a CDU-11), SRS (IEEE 830), protótipos e revisão de consistência      | [P2_GRUPO4.pdf](entregas/P2_GRUPO4.pdf)         |
-| **PITCH** | Apresentação de pitch do projeto em formato web interativo                                              | [PITCH_GRUPO4.html](entregas/PITCH_GRUPO4.html) |
+| **PITCH** | Apresentação de pitch do projeto em formato web interativo                                              | [PITCH_GRUPO4.html](entregas/pitch_GRUPO4.html) |
 
 ---
 
