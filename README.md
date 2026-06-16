@@ -52,6 +52,14 @@ Acesse o protótipo funcional: **[sistema-enade.lovable.app](https://sistema-ena
 | Karlos Eduardo Sousa Pinto    | 2320262    |
 | Kayo Nicholas Gomes Alcantara | 2320258    |
 
+### 🧩 Contribuições por Integrante
+
+| Integrante                              | Entregáveis                                                                                                                                                                                                                                                   |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gustavo Viana Lima**            | Documento de Visão, Ordenação de telas do protótipo                                                                                                                                                                                                        |
+| **Karlos Eduardo Sousa Pinto**    | Diagrama de Implantação, Diagrama de Stakeholders, Diagrama de Componentes, Documento de Visão, Glossário, Protótipos, SRS, Revisão de Consistência, Regras de Negócio, Requisitos Funcionais, Requisitos Não Funcionais, Entrega_1, Entrega_2, Pitch |
+| **Kayo Nicholas Gomes Alcantara** | Diagrama de Casos de Uso, Documento de Visão, Especificação dos Casos de Uso, Lista de Stakeholders, Requisitos Funcionais, Regras de Negócio, Requisitos Não Funcionais, Entrega_1                                                                      |
+
 ---
 
 ## 📁 Estrutura do Repositório
@@ -126,11 +134,11 @@ requisitos-2026-GRUPO.4/
 
 ## 🗂️ Entregas Acadêmicas
 
-| Entrega      | Descrição                                                                                               | Arquivo                              |
-| ------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| **P1** | Visão da demanda, stakeholders, requisitos funcionais e não funcionais, glossário e regras de negócio | [P1_GRUPO4.pdf](entregas/P1_GRUPO4.pdf) |
-| **P2** | Modelagem de casos de uso (CDU-01 a CDU-11), SRS (IEEE 830), protótipos e revisão de consistência      | [P2_GRUPO4.pdf](entregas/P2_GRUPO4.pdf) |
-| **PITCH** | Apresentação de pitch do projeto em formato web interativo                                             | [PITCH_GRUPO4.html](entregas/PITCH_GRUPO4.html) |
+| Entrega         | Descrição                                                                                               | Arquivo                                      |
+| --------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| **P1**    | Visão da demanda, stakeholders, requisitos funcionais e não funcionais, glossário e regras de negócio | [P1_GRUPO4.pdf](entregas/P1_GRUPO4.pdf)         |
+| **P2**    | Modelagem de casos de uso (CDU-01 a CDU-11), SRS (IEEE 830), protótipos e revisão de consistência      | [P2_GRUPO4.pdf](entregas/P2_GRUPO4.pdf)         |
+| **PITCH** | Apresentação de pitch do projeto em formato web interativo                                              | [PITCH_GRUPO4.html](entregas/PITCH_GRUPO4.html) |
 
 ---
 
